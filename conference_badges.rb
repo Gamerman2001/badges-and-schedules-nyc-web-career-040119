@@ -16,6 +16,6 @@ end
 
 def printer(attendees)
   assign_rooms(attendees).each do |name|
-     name
+     p name
   end  
 end 
